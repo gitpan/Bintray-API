@@ -1,0 +1,51 @@
+This file contains message digests of all files listed in MANIFEST,
+signed via the Module::Signature module, version 0.73.
+
+To verify the content in this distribution, first make sure you have
+Module::Signature installed, then type:
+
+    % cpansign -v
+
+It will check each file's integrity, as well as the signature's
+validity.  If "==> Signature verified OK! <==" is not displayed,
+the distribution may already have been compromised, and you should
+not run its Makefile.PL or Build.PL.
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+SHA1 6a435dba4bfe3fa1e4dfccbe62d1c9eeddd3f8ff Build.PL
+SHA1 81751df367fea9a03e77eb57c859a36abf344ff1 Changes
+SHA1 df45f9ac1eb94f7dd70a7430a21ade0adf52f0d4 INSTALL
+SHA1 1f80b6aa6be977bb2707d411db8073d39dcfc044 LICENSE
+SHA1 36767ee9777a19ce5e9d8e19da9b06761aadd06e MANIFEST
+SHA1 44ad53dbff8327299dad0da2acaa52622333ed0f META.json
+SHA1 870ea5264694d72b79bc926b0beaf0aeda8179f3 META.yml
+SHA1 132533a3bcd02aa2cab2e2e81fb3fc1980522c9a Makefile.PL
+SHA1 f4eb7e543ca3df15248783b6e02ae777bffac96d README
+SHA1 94b8bc3e84c541e35aafecf85fba83765178defa lib/Bintray/API.pm
+SHA1 ae01ec6aaf2dadf8f7589e5f74b44820ed601b60 lib/Bintray/API/Package.pm
+SHA1 54c5d346bb08d4d6365106cc9846fa3588ad147c lib/Bintray/API/Repo.pm
+SHA1 1fae89ab375aef54aa8cd09cc34bffc01bd2b55f lib/Bintray/API/Search.pm
+SHA1 98dd5db38c2359f07f09843931a487f0c1989a1e lib/Bintray/API/Session.pm
+SHA1 7bfcac919b198cf7f7d3ae9d9dbcdfd9ad3cbcb8 lib/Bintray/API/Subject.pm
+SHA1 eca738b9bd242f923561e951c4189f4652d269ab lib/Bintray/API/Version.pm
+SHA1 941b62783a51759aba46f84cf728256d0e53fd42 t/00-load.t
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG/MacGPG2 v2.0.18 (Darwin)
+Comment: GPGTools - http://gpgtools.org
+
+iQIcBAEBAgAGBQJSSrcjAAoJEGoUTMJ9dUakYbkP/2kdE9as8EtL7fdEQK+syjt3
+wNyO8VrDJJ0+leyVVHkSfaieIjL1kSMtpiHE33QfpYlO2D/iJMCGr7ySAVrrX9BX
+SIYQWXBPVNZk9U+1Jzu1jlSUPu0RWJpu5GR7IgUpDbGDSxHH7IoVoMLHMqk2Cr7n
+eSNjSiJ1mKy55oLxcJqcTKZ6Kk0fo2YOdvEr2JQaG+NwQvPb0cmcugedQlmAMEb7
+oBBhZKwshy80V441e7B4zQbPtxmYc273521JIeM4zr7afphHjltvPH1UX94W/FT+
+FHRmvCG7aCsf4yy93UfxT3Bo3KyP2op36Sfat6EA8ianHhHY/O8JHkx2OR2xfIRs
+Z/M++246E+FCAw21LMwDhpm4dZ582FhvCvZFqf5qrzp88Bn04JRuofiFuUPkCtzL
+Ise20KsRHnsfy3G6HTuuj/JxK36I1SVGeQLQsIAT+CRx/jNWY2SdtN1WnSqhhtyw
+FAyU1RFDtj6jhi/gC778cHJEMW/w/3xNZvZqBX8HHZHpH31aKNfJJ9Oo/3E7gM6c
+awYbquPbBqJXKhvuMM0C9NYYiBn2D2f/rI7SR7Bkfkmi22wkCDQYEGh65DOmWvyr
+/uNNo6s1FmgWlfO+w/5+9oyiuI7zm9srUzgi560s9CdtJ4mAyXbhyRF8to03Kgu2
+fulR2Jtx0vF5hDPI3smL
+=216+
+-----END PGP SIGNATURE-----
