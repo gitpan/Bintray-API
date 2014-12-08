@@ -30,7 +30,6 @@ my $builder = Module::Build->new(
     create_makefile_pl      => 'traditional',
     recursive_test_files    => 1,
     add_to_cleanup          => ['Bintray-API-*'],
-    sign                    => 1,
 
     # Prereqs
     build_requires => {
@@ -58,7 +57,7 @@ my $builder = Module::Build->new(
         },
         keywords  => [qw()],
         resources => {
-            bugtracker => 'http://rt.cpan.org/Public/Dist/Display.html?Name=Bintray-API',
+            bugtracker => 'https://github.com/mithun/perl-bintray-api/issues',
             repository => 'git://github.com/mithun/perl-bintray-api.git',
             homepage   => 'https://github.com/mithun/perl-bintray-api',
         },

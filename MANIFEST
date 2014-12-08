@@ -15,4 +15,3 @@ META.json
 META.yml
 README
 t/00-load.t
-SIGNATURE    Added here by Module::Build
